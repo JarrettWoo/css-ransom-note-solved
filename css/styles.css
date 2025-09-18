@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asimovian&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -59,7 +61,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +70,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +79,710 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font-size: 45px;
+  font-weight: bold;
+  color: lightgreen;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 
 .didILetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: orange;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 
 .didDTwoLetter {
+  font-size: 35px;
+  font-weight: lighter;
+  color: violet;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter,
+.Letter1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: steelblue;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Luckiest Guy", sans-serif;
 }
 
 .theHLetter {
+  font-size: 30px;
+  font-weight: normal;
+  color: pink;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .theELetter {
+  font-size: 70px;
+  font-weight: lighter;
+  color: lightcoral;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Piazzolla", sans-serif;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 80px;
+  font-weight: thin;
+  color: lightblue;
+  text-decoration: dotted underline;
+  text-transform: none;
+  font-family: "Luckiest Guy", sans-serif;
 }
 
 .frontendRLetter {
+  font-size: 36px;
 }
 
 .frontendOLetter {
+  font-size: 25px;
+  font-weight: normal;
+  color: lightcoral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 
 .frontendNLetter {
+  font-size: 55px;
+  font-weight: bold;
+  color: neongreen;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .frontendTLetter {
+  font-size: 40px;
+  font-weight: lighter;
+  color: violet;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 
 .frontendELetter {
+  font-size: 70px;
+  font-weight: bolder;
+  color: lightcoral;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Piazzolla", sans-serif;
 }
 
 .frontendNTwoLetter {
+  font-size: 16px;
+  font-family: "raleway dots", sans-serif;
 }
 
 .frontendDLetter {
+  font-size: 45px;
+  font-weight: bold;
+  color: purple;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: purple;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .developerELetter {
+  font-size: 62px;
+  font-weight: normal;
+  color: burlywood;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "ceviche one", sans-serif;
 }
 .developerVLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: ghostwhite;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Piazzolla", sans-serif;
 }
+
 .developerETwoLetter {
+  font-size: 35px;
+  font-weight: bold;
+  color: firebrick;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Piazzolla", sans-serif;
 }
 .developerLLetter {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(161, 219, 192);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Piazzolla", sans-serif;
 }
 .developerOLetter {
+  font-size: 45px;
+  font-weight: normal;
+  color: rgb(113, 115, 215);
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .developerPLetter {
+  font-size: 16px;
+  font-weight: 400;
+  color: #282a56;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Piazzolla", sans-serif;
 }
 .developerEThreeLetter {
+  font-size: 35px;
+  font-weight: 700;
+  color: #48975c;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .developerRLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "luckiest guy", sans-serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 25px;
+  font-weight: bold;
+  color: #a2ca4b;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "luckiest guy", sans-serif;
 }
 .takeALetter {
+  font-size: 68px;
+  font-weight: bold;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .takeKLetter {
+  font-size: 18px;
+  font-weight: normal;
+  color: #f06eaa;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Ceviche One", sans-serif;
 }
 .takeELetter {
+  font-size: 55px;
+  font-weight: lighter;
+  color: #f0e68c;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 25px;
+  font-weight: bold;
+  color: #a2ca4b;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "luckiest guy", sans-serif;
 }
+
 .upPLetter {
+  font-size: 68px;
+  font-weight: bold;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .gardeningALetter {
+  font-size: 68px;
+  font-weight: 400;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .gardeningRLetter {
+  font-size: 58px;
+  font-weight: 400;
+  color: #282a56;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .gardeningDLetter {
+  font-size: 48px;
+  font-weight: 700;
+  color: #3f514d;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "piazzolla", sans-serif;
 }
 .gardeningELetter {
+  font-size: 55px;
+  font-weight: 400;
+  color: #f0e68c;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Asimovian", sans-serif;
 }
 .gardeningNLetter {
+  font-size: 48px;
+  font-weight: bold;
+  color: #41d8b7;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "piazzolla", sans-serif;
 }
 .gardeningILetter {
+  font-size: 36px;
+  font-weight: normal;
+  color: #f06eaa;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Ceviche One", sans-serif;
 }
 .gardeningNTwoLetter {
+  font-size: 50px;
+  font-weight: normal;
+  color: #c0b902;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Ceviche One", sans-serif;
 }
 .gardeningGTwoLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #7aa4a5;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "luckiest guy", sans-serif;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 55px;
+  font-weight: 400;
+  color: #903f84;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 .becauseELetter {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00ffc8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "piazzolla", sans-serif;
 }
+
 .becauseCLetter {
+  font-size: 55px;
+  font-weight: normal;
+  color: #e80e0e;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Asimovian", sans-serif;
 }
 .becauseALetter {
+  font-size: 80px;
+  font-weight: 400;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .becauseULetter {
+  font-size: 21px;
+  font-weight: bold;
+  color: rgb(205, 247, 15);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 .becauseSLetter {
+  font-size: 55px;
+  font-weight: normal;
+  color: #e80e0e;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "piazzolla", sans-serif;
 }
 .becauseETwoLetter {
+  font-size: 18px;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 80px;
+  font-weight: bold;
+  color: aqua;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "luckiest guy", sans-serif;
 }
 .theyHLetter {
+  font-size: 46px;
+  font-weight: 400;
+  color: #26ff00;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .theyELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(123, 120, 113);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Ceviche One", sans-serif;
 }
 .theyYLetter {
+  font-size: 25px;
+  font-weight: normal;
+  color: #00fff2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .wantedALetter {
+  font-size: 68px;
+  font-weight: 400;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .wantedNLetter {
+  font-size: 58px;
+  font-weight: 400;
+  color: #282a56;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .wantedTLetter {
+  font-size: 48px;
+  font-weight: 700;
+  color: #124c3f;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "piazzolla", sans-serif;
 }
 .wantedELetter {
+  font-size: 55px;
+  font-weight: 400;
+  color: #f0e68c;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Asimovian", sans-serif;
 }
 .wantedDLetter {
+  font-size: 48px;
+  font-weight: bold;
+  color: #41d8b7;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* TO word */
 
 .toTLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .toOLetter {
+  font-size: 68px;
+  font-weight: 400;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .improveMLetter {
+  font-size: 68px;
+  font-weight: 400;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .improvePLetter {
+  font-size: 58px;
+  font-weight: 400;
+  color: #282a56;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "Raleway Dots", sans-serif;
 }
 .improveRLetter {
+  font-size: 35px;
+  font-weight: 700;
+  color: #85ffe5;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .improveOLetter {
+  font-size: 70px;
+  font-weight: normal;
+  color: #7f75dd;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .improveVLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #f92ed3;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .improveELetter {
+  font-size: 70px;
+  font-weight: normal;
+  color: #ff850b;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 .theirHLetter {
+  font-size: 46px;
+  font-weight: 400;
+  color: #26ff00;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .theirELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(123, 120, 113);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Ceviche One", sans-serif;
 }
 .theirILetter {
+  font-size: 25px;
+  font-weight: normal;
+  color: #00fff2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway Dots", sans-serif;
 }
 .theirRLetter {
+  font-size: 36px;
+  font-weight: bold;
+  color: #05ff65;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 68px;
+  font-weight: 400;
+  color: #01b2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Libertinus Keyboard", sans-serif;
 }
 .rootOLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "luckiest guy", sans-serif;
 }
 .rootOTwoLetter {
+  font-size: 58px;
+  font-weight: bold;
+  color: #282a56;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "luckiest guy", sans-serif;
 }
 .rootTLetter {
+  font-size: 48px;
+  font-weight: 700;
+  color: #124c3f;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: "piazzolla", sans-serif;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-size: 55px;
+  font-weight: normal;
+  color: #e80e0e;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Asimovian", sans-serif;
 }
 .skillsKLetter {
+  font-size: 55px;
+  font-weight: 700;
+  color: #410d0d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 .skillsILetter {
+  font-size: 85px;
+  font-weight: 700;
+  color: rgb(255, 10, 200);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Asimovian", sans-serif;
 }
 .skillsLLetter {
+  font-size: 45px;
+  font-weight: 700;
+  color: #45d3c8;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Asimovian", sans-serif;
 }
 .skillsLTwoLetter {
+  font-size: 60px;
+  font-weight: 400;
+  color: #45d3c8;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Asimovian", sans-serif;
 }
 .skillsSTwoLetter {
+  font-size: 25px;
+  font-weight: normal;
+  color: #519d43;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 72px;
+  font-weight: bold;
+  color: lightgrey;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "Piazolla", sans-serif;
 }
 .exclamation-mark {
+  font-size: 65px;
+  font-weight: normal;
+  color: rgb(0, 255, 255);
+  text-decoration: none;
+  text-transform: none;
+  font-family: "libertinus keyboard", sans-serif;
 }
 .question-mark {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(82, 255, 51);
+  text-decoration: none;
+  text-transform: none;
+  font-family: "luckiest guy", sans-serif;
 }
